@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <title>Desafio DOM</title>
+</head>
+
+<body class="background">
+    <header>
+        <section style="display:none" id="menu-display">
+            <div id="menu">
+                <p>Menu</p>
+            </div>
+            <div id="avatar">
+                <img src="./img/dixiep.png" alt="dixie">
+            </div>
+        </section>
+        <section id="conteudo" style="display: none;">
+            <h4 id="paragrafo"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto architecto quisquam
+                veniam
+                cumque harum
+                recusandae dolorem eveniet, fugiat repellendus maxime, explicabo pariatur veritatis beatae est,
+                molestias corporis cupiditate aliquid? Minima.</h4>
+            <div id="sair" style="display: none">LOGOUT
+            </div>
+        </section>
+
+    </header>
+    <main>
+        <section id="container-display">
+            <div id="container">
+                <h1> Dom! </h1>
+                <div id="email">
+                    <input type="text" placeholder="email" id="usuario">
+
+
+
+                </div>
+                <div id="password">
+                    <input type="password" placeholder="senha" id="senha">
+
+                </div>
+                <div id="login">
+                    <button onclick="login()">ENTRAR</button>
+
+
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
