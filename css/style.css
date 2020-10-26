@@ -6,7 +6,7 @@ body{
 }
 
 .background{
-    background-image: url(./img/donkey.jpg);
+    background-image: url(/img/donkey.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
